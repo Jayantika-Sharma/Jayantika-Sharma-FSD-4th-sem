@@ -1,0 +1,12 @@
+:root{
+    --col1: rgb(49, 13, 255);
+    --col2: rgb(255, 255, 255);
+}
+body{
+    gap:20px;
+    background-color: var(--col1);
+}
+
+#main{
+    background-color: var(--col2);
+}

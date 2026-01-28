@@ -1,0 +1,35 @@
+:root{
+    --col1: rgb(49, 13, 255);
+    --col2: rgb(199, 37, 37);
+    --col3: rgb(58, 51, 97);
+    --col4: rgb(74, 11, 219);
+    --col5: rgb(239, 255, 13);
+    --col6: rgb(0, 247, 62);
+
+}
+body{display: flex;
+     justify-content:center;
+     align-items: center;
+     height: 100vh;
+     margin: 0;}
+div{width: 200px;
+    height: 200px;
+    margin: 10px;
+    font-size: 50px;
+    text-align:center;
+}
+#a1{
+    background-color: var(--col2);
+}
+#a2{
+    background-color: var(--col3);
+}
+#a3{
+    background-color: var(--col4);
+}
+#a4{
+    background-color: var(--col5);
+}
+#a5{
+    background-color: var(--col6);
+}
