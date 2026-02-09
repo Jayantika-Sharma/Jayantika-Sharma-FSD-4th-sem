@@ -11,15 +11,26 @@
         padding: 20px;
         border: 1px solid black;
     }
-    @media screen and (max-width: 600px) {
-        div {
-            background-color: lightblue;
+    @media screen and (max-width: 760px) and (min-width: 480px) {
+        #l {
+            background-color: rgb(217, 236, 133);
+        }
+    }
+    @media screen and (max-width: 480px) {
+        #l {
+            background-color: rgb(187, 123, 212);
+        }
+        #w {
+            
+            display: none;
         }
     }
 </style>
 <body>
-    <div>
+    <div id=l >
         <p>This is a sample paragraph inside a div element.</p>
     </div>
+    <br>
+    <div id=w>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, minima? Veritatis ab aspernatur odit quis rerum facilis doloribus soluta rem veniam magni! Quam itaque, pariatur aperiam consequatur voluptatum vitae quod tempora porro placeat quidem nobis autem, provident hic aliquam dolorum ex dolore. Repudiandae soluta reiciendis quaerat? A, maxime. Ullam, error eaque? Nulla placeat aut dolores maiores voluptates voluptatum aliquam cupiditate!</div>
 </body>
 </html>
